@@ -32,6 +32,13 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+      
+      <xray.jiraURL>http://localhost:8080</xray.jiraURL>
+        <xray.resultsFormat>JUNIT</xray.resultsFormat>
+        <xray.username>admin</xray.username>
+        <xray.password>password</xray.password>
     </properties>
+  
+     
 
 </project>
