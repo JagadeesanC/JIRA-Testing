@@ -52,7 +52,80 @@ public class UserSteps {
 	}
 
 
+@Given("^a Testuser with password xyz$")
+public void a_Testuser_with_password_xyz() throws Throwable {
+    assert(true);
+}
+
+@Given("^I am on the login page$")
+public void i_am_on_the_login_page() throws Throwable {
+	assert(true);
+}
+
+@Given("^I fill in User name with Testuser$")
+public void i_fill_in_User_name_with_Testuser() throws Throwable {
+	assert(true);
+}
+
+@Given("^I fill in Password with xyz$")
+public void i_fill_in_Password_with_xyz() throws Throwable {
+	assert(true);
+}
+
+@When("^I press Log in$")
+public void i_press_Log_in() throws Throwable {
+	assert(true);
+}
+
+@Then("^I should see Welcome, Testuser$")
+public void i_should_see_Welcome_Testuser() throws Throwable {
+	assert(true);
+}
 	
-	
+@Given("^I fill in Password with \"([^\"]*)\"$")
+public void i_fill_in_Password_with(String arg1) throws Throwable {
+	assert(true);
+}
+
+@Given("^a user \"([^\"]*)\" with password \"([^\"]*)\"$")
+public void a_user_with_password(String arg1, String arg2) throws Throwable {
+	assert(true);
+}
+
+@Given("^I fill in \"([^\"]*)\" with \"([^\"]*)\"$")
+public void i_fill_in_with(String arg1, String arg2) throws Throwable {
+	assert(true);
+}
+
+@When("^I press \"([^\"]*)\"$")
+public void i_press(String arg1) throws Throwable {
+	assert(true);
+}
+
+@Then("^I should see \"([^\"]*)\"$")
+public void i_should_see(String arg1) throws Throwable {
+	assert(true);
+}
+
+@Given("^I have entered (\\d+) into the calculator$")
+public void i_have_entered_into_the_calculator(int arg1) throws Throwable {
+	assert(true);
+}
+
+@Given("^I have also entered (\\d+) into the calculator$")
+public void i_have_also_entered_into_the_calculator(int arg1) throws Throwable {
+	assert(true);
+}
+
+@When("^I press add$")
+public void i_press_add() throws Throwable {
+	assert(true);
+}
+
+@Then("^the result should be (\\d+) on the screen$")
+public void the_result_should_be_on_the_screen(int arg1) throws Throwable {
+	assert(true);
+}
+
 	
 }
